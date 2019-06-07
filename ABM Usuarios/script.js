@@ -1,8 +1,8 @@
 class User {
    constructor(nombre, apellido, edad) {
-      this.nombre = nombre;
-      this.apellido = apellido;
-      this.edad = edad;
+      this.name = nombre;
+      this.lastname = apellido;
+      this.age = edad;
    }
 }
 
@@ -22,9 +22,9 @@ function showError(error) {
 function createUserFront() {
    var user = new User();
 
-   user.nombre = $("#nombre").val();
-   user.apellido = $("#apellido").val();
-   user.edad = $("#edad").val();
+   user.name = $("#nombre").val();
+   user.lastname = $("#apellido").val();
+   user.age = $("#edad").val();
 
    console.log(user);
 
