@@ -75,7 +75,7 @@ function createUser(user) {
 
 function modifyUser(user) {
    $.ajax({
-      type: "POST",
+      type: "PUT",
       url: `http://courseit.com.ar:3005/user/${user.id}`,
       data: user,
       success: function () {
